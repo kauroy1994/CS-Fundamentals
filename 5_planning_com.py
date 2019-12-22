@@ -1,3 +1,4 @@
+#number of ways to form 5 member committee with only one from one couple
 from itertools import permutations,combinations
 combs = list(combinations('0123456789',5))
 combs = [list(x) for x in combs]
