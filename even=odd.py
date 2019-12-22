@@ -1,3 +1,4 @@
+#number of 6 digit numbers where number of even digits = number of odd digits
 n = 6
 x = [[int(i) for i in list(str(j))] for j in range(10**n)]
 x = [[int(k) for k in list((n-len(i))*'0') + i] if len(i) < n else i for i in x]
